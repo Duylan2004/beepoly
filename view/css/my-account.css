@@ -1,0 +1,153 @@
+.wrapper_my-account{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 90vh;
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.navbar_my-account{
+    height: fit-content;
+    min-width: 200px;
+    width: 24vw;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+.navbar_my-account .navbar_my-account_container{
+    display: flex;
+    padding-top: 20px;
+
+    flex-direction: column;
+    gap: 10px;
+}
+.navbar_my-account .navbar_my-account_container .navbar_my-account_item{
+    padding: 8px 0;
+}
+.navbar_my-account .navbar_my-account_container .navbar_my-account_item a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.navbar_my-account .navbar_my-account_container .navbar_my-account_item a:hover{
+    color: #2DA5FB;
+}
+
+
+.container_my-account{
+    width: 75vw;
+    min-width: 800px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+
+.container_my-account .saved{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+.container_my-account .saved a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+
+}
+.container_my-account .saved a .post_item{
+    display: flex;
+    gap: 12px;
+}
+.container_my-account .saved a .post_item .heading{
+    width: 100%;
+    padding:10px 0;
+}
+.container_my-account .saved a .post_item .heading .title_post{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.container_my-account .saved a .post_item .heading .des{
+    line-height: 1.2;
+    font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.container_my-account .saved a .post_item .heading .like{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000;
+    margin-top: 20px;
+}
+.container_my-account .saved a .post_item .img{
+    width: 500px;
+    height: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.container_my-account .saved a .post_item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_my-account form.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container_my-account h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.container_my-account form.info .info_item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info_item {
+margin-bottom: 10px;
+}
+
+.info_item label {
+display: block;
+margin-bottom: 5px;
+}
+
+.info_item input[type="text"] {
+width: 100%;
+outline: none;
+
+padding: 18px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 16px;
+}
+
+.btn {
+text-align: center;
+}
+
+.btn input[type="submit"] {
+    padding: 18px 32px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #092856;
+}
+

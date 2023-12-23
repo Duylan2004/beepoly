@@ -1,0 +1,122 @@
+/* Use the same styling for resultPosts1 as recent_posts1 */
+.container_search{
+    padding: 100px 0;
+}
+.resultPosts1 {
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.resultPosts1 .heading1 h5 {
+    color: #2DA5FB;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.resultPosts1 .post_item1 {
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.resultPosts1 .post_item1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.resultPosts1 .img1 {
+    padding: 10px;
+}
+
+.resultPosts1 .img1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.resultPosts1 .heading1 {
+    padding: 15px;
+}
+
+.resultPosts1 .title_post {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.resultPosts1 .des1 {
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.resultPosts1 .like1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.resultPosts1 .more1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 0;
+}
+
+.resultPosts1 .btn_see_more1 a {
+    padding: 18px 32px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    background-color: #2DA5FB;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resultPosts1 .btn_see_more1 a:hover {
+    background-color: #1c7ed6;
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 640px) {
+    .resultPosts1 .recent_posts_container1 a {
+        width: calc(50% - 10px);
+    }
+
+    .resultPosts1 .img1 img {
+        height: 180px;
+    }
+}
+/* Styling for the search result heading */
+h5 {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 100px;
+   
+    border-radius: 8px;
+    position: relative;
+    animation: colorChange 1s infinite alternate; /* Apply the colorChange animation */
+}
+
+/* Keyframes for the colorChange animation */
+@keyframes colorChange {
+    from {
+        color:#000;
+    }
+    to {
+        color: #1c7ed6;
+    }
+}
+
